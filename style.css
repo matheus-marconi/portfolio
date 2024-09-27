@@ -1,0 +1,1014 @@
+/* Este repositório base foi criado para te ajudar caso você não saiba como começar. Lembre-se de que o portfólio é a sua carta de apresentação e você deve dar a sua cara. Por isso, convidamos você a personalizá-lo de acordo com o seu estilo e preferências; não se limite apenas ao layout proposto no Figma. */
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo-menu: #ffffff;
+    --cor-do-link: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-do-link);
+}
+
+/* ------------------------------ Seção Menu -------------------------------*/
+
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--cor-de-fundo-menu);
+}
+
+.cabecalho__logo {
+    margin-left: 153px;
+    margin-right: 15px;
+}
+
+.cabecalho__titulo {
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+
+}
+
+.navegacao__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 360px;
+    text-align: center;
+}
+
+.navegacao__elemento6 {
+    font-weight: bold;
+}
+
+/* ------------------------------ Seção Apresentação ------------------------------*/
+.apresentacao {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 152px;
+    margin-right: 152px;
+    margin: 0px 152px 93px 152px;
+    gap: 17px;
+
+}
+
+.apresentacao__foto {
+    width: 368px;
+    height: 368px;
+    margin-top: 30px;
+    border-radius: 300px;
+}
+
+.apresentacao__titulo {
+    font-size: 52px;
+    margin-top: 61px;
+    line-height: 61px;
+}
+
+.apresentacao__subtitulo {
+    font-size: 22px;
+    text-align: left;
+    margin-right: 17px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+    padding: 0px;
+}
+
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+
+
+.sobre-mim {
+    background-color: #EAF2FD;
+    padding: 64px;
+}
+
+.sobre-mim__titulo {
+    font-size: 32px;
+    line-height: 37px;
+    margin: 64px 537px 16px 105px;
+
+}
+
+.sobre-mim__texto {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 16px 600px 16px 105px;
+}
+
+.sobre-mim__assinatura {
+    width: 140px;
+    height: 52px;
+    margin: 16px 152px 16px 105px;
+}
+
+/*------------------------------ Seção de Habilidades ------------------------------*/
+
+.habilidades {
+    margin: 32px 152px 88px 152px;
+}
+
+.habilidades__titulo {
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 32px;
+}
+
+.habilidades__lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.habilidades__elemento {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.habilidades__elemento4 {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.habilidades__elemento5 {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.habilidades__icone {
+    size: 32px;
+    line-height: 36px;
+    margin: 94px 136px 43px 16px;
+}
+
+.habilidades__nome {
+    size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: -20px 16px 16px 16px;
+}
+
+
+/*------------------------------ Seção de Hobbies --------------------------------*/
+
+.hobbies {
+    margin: 32px 152px 88px 152px;
+}
+
+.hobbies__titulo {
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 32px;
+}
+
+.hobbies__lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.hobbies__elemento {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.hobbies__elemento4 {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.hobbies__elemento5 {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.hobbies__icone {
+    size: 32px;
+    line-height: 36px;
+    margin: 94px 136px 43px 16px;
+}
+
+.hobbies__nome {
+    size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: -20px 16px 16px 16px;
+}
+
+/*------------------------------ Seção de Formação --------------------------------*/
+
+.formacao {
+    background-color: #EAF2FD;
+    padding: 82px;
+    gap: 32px;
+}
+
+.formacao__titulo {
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 32px;
+}
+
+.formacao__lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+
+}
+
+.formacao__elemento {
+    background-color: var(--cor-de-fundo-menu);
+    margin-right: 16px;
+    width: 368px;
+    height: 286px;
+    gap: 8px;
+    padding: 16px;
+}
+
+.formacao__icone {
+    margin: 78px 88px 78px 88px;
+
+}
+
+.formacao__icone3 {
+    margin: 78px 88px 78px 28px;
+}
+
+.formacao__nome {
+    size: 22px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 20px 16px 16px -10px;
+
+}
+
+.formacao__nome2 {
+    margin: 35px 16px 16px -10px;
+}
+
+.formacao__nome3 {
+    margin: 20px 16px 16px -10px;
+}
+
+.formacao__detalhe {
+    margin: 8px 16px 0px -10px;
+    size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+
+
+}
+
+/*------------------------------ Seção de Projetos --------------------------------*/
+
+.projetos__titulo {
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 32px;
+
+}
+
+.projetos__conteiner {
+    display: flex;
+    margin-left: 152px;
+    margin-top: 32px;
+}
+
+.projetos__img {
+    margin-left: 10px;
+
+}
+
+.projetos__nome1 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 147px;
+    margin-left: 26px;
+    margin-bottom: 100px;
+}
+
+.projetos__descricao1 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 181px;
+    margin-left: -233px;
+    margin-bottom: 100px;
+}
+
+.btn__repositorio {
+    margin-top: 220px;
+    margin-left: -180px;
+    width: 116px;
+    height: 51px;
+    border-color: #2A7AE4;
+    align-items: center;
+    border-width: 3px;
+    color: #2A7AE4;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.btn__demo {
+    margin-top: 220px;
+    margin-left: -50px;
+    width: 116px;
+    height: 51px;
+    border-color: #2A7AE4;
+    background-color: #2A7AE4;
+    align-items: center;
+    border-width: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.projetos__conteiner2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.projetos__img2 {
+    margin-right: 152px;
+    margin-top: 53px;
+}
+
+.projetos__nome2 {
+    margin-top: 144px;
+    margin-left: -190px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.projetos__descricao2 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 200px;
+    margin-left: -450px;
+    margin-bottom: 150px;
+    margin-right: 34px;
+}
+
+
+.btn__repositorio2 {
+    margin-top: 250px;
+    margin-left: 0px;
+    margin-right: 200px;
+    width: 116px;
+    height: 51px;
+    border-color: #2A7AE4;
+    align-items: center;
+    border-width: 3px;
+    color: #2A7AE4;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.btn__demo2 {
+    margin-top: 250px;
+    margin-right: 16px;
+    width: 116px;
+    height: 51px;
+    border-color: #2A7AE4;
+    background-color: #2A7AE4;
+    align-items: center;
+    border-width: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+/*------------------------------ Seção de Contato ---------------------------------*/
+
+.contato {
+    margin-top: 32px;
+    background-color: #EAF2FD;
+    padding: 64px;
+    gap: 10px;
+}
+
+.projetos__img {
+    margin-left: 152px;
+    margin-top: 0px;
+}
+
+.contato__titulo {
+    margin: 0px 0px -55px 632px;
+
+}
+
+.contato__descricao {
+    margin: 50px 0px 0px 632px;
+}
+
+.email {
+    margin: 0px 0px -80px 632px;
+    color: #2A7AE4;
+}
+
+
+/*------------------------------------Rodapé---------------------------------------------*/
+
+.rodape {
+    padding: 20px;
+
+}
+
+.rodape__descricao {
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.rodape__descricao2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+/* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Para Tablets */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .cabecalho__logo {
+        max-width: 100px;
+        margin-left: 32px
+    }
+
+    .cabecalho__titulo {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .navegacao__lista {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .navegacao__elemento {
+        visibility: hidden;
+    }
+
+    .navegacao__elemento6 {
+        visibility: visible;
+    }
+
+    .navegacao__elemento a {
+        font-size: 1rem;
+    }
+
+    .apresentacao__titulo {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .apresentacao__subtitulo {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .apresentacao__foto {
+        width: 146px;
+        height: 146px;
+    }
+
+    .apresentacao {
+        margin-left: 32px;
+        margin-right: 34px;
+    }
+
+    .sobre-mim {
+        padding: 32px;
+    }
+
+    .sobre-mim__titulo {
+        margin-left: 0px;
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sobre-mim__texto {
+        margin-left: 0px;
+        margin-right: 32px;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .sobre-mim__assinatura {
+        margin-left: 0px;
+    }
+
+    .habilidades__lista {
+        margin-left: -130px;
+    }
+
+    .habilidades__elemento5 {
+        margin-left: -896px;
+        margin-top: 240px;
+    }
+
+    .hobbies__lista {
+        margin-left: -130px;
+    }
+
+    .hobbies__elemento5 {
+        margin-left: -896px;
+        margin-top: 240px;
+    }
+
+    .formacao__elemento {
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacao__lista {
+        margin-left: -30px;
+    }
+
+    .formacao__icone {
+        width: 124px;
+        height: 78px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    .formacao__icone3 {
+        width: 224px;
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .formacao__nome {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -30px;
+
+    }
+
+    .formacao__nome2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -30px;
+    }
+
+    .formacao__nome3 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -50px;
+    }
+
+    .formacao__detalhe {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .projetos__conteiner {
+        margin-left: -32px;
+        width: 704px;
+        height: 320px;
+    }
+
+    .projetos__titulo {
+        font-size: 22px;
+        line-height: 25px;
+        padding: 32px;
+        margin-top: 0px;
+    }
+
+    .projetos__img {
+        margin-top: -30px;
+    }
+
+    .projetos__nome1 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 330px;
+        margin-left: -767px;
+    }
+
+    .projetos__descricao1 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 355px;
+        margin-left: -170px;
+    }
+
+    .btn__repositorio {
+        margin-top: 385px;
+        margin-left: -125px;
+        width: 108px;
+        height: 40px;
+    }
+
+    .btn__demo {
+        margin-top: 385px;
+        margin-left: -5px;
+        width: 96px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .projetos__conteiner2 {
+        margin-top: 80px;
+        margin-left: 265px;
+        width: 704px;
+        height: 370px;
+    }
+
+    .projetos__nome2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: -185px;
+        margin-left: -170px;
+        margin-top: 380px;
+
+    }
+
+    .projetos__descricao2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 405px;
+        margin-left: -480px;
+    }
+
+    .btn__repositorio2 {
+        margin-top: 440px;
+        margin-left: -250px;
+        margin-right: 350px;
+        width: 108px;
+        height: 40px;
+    }
+
+    .btn__demo2 {
+        margin-top: 440px;
+        margin-right: 20px;
+        width: 108px;
+        height: 40px;
+    }
+
+    .contato {
+        margin-top: 150px;
+    }
+
+}
+
+/* Para Celulares */
+@media (max-width: 767px) {
+    .cabecalho__logo {
+        max-width: 80px;
+        margin-left: 16px;
+
+    }
+
+    .cabecalho__titulo {
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: -190px;
+    }
+
+    .navegacao__lista {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .navegacao__elemento {
+        visibility: hidden;
+    }
+
+    .navegacao__elemento6 {
+        visibility: visible;
+    }
+
+    .navegacao__elemento a {
+        font-size: 0.9rem;
+    }
+
+    .apresentacao__titulo {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 16px;
+    }
+
+    .apresentacao__subtitulo {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .apresentacao__foto {
+        width: 98px;
+        height: 98px;
+    }
+
+    .apresentacao {
+        margin-left: 16px;
+        margin-right: 16px;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    .sobre-mim {
+        padding: 16px;
+    }
+
+    .sobre-mim__titulo {
+        margin-left: 0px;
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sobre-mim__texto {
+        margin-left: 0px;
+        margin-right: 32px;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .sobre-mim__assinatura {
+        margin-left: 0px;
+    }
+
+    .habilidades__lista {
+        margin-left: -145px;
+    }
+
+    .habilidades__elemento4 {
+        margin-left: -445px ;
+        margin-top: 240px;
+    }
+
+    .habilidades__elemento5 {
+        margin-left: -450px;
+        margin-top: 240px;
+    }
+
+    .hobbies__titulo {
+        margin-top: -32px;
+    }
+
+    .hobbies__lista {
+        margin-left: -145px;
+        margin-bottom: -50px;
+    }
+
+    .hobbies__elemento4 {
+        margin-top: 240px;
+        margin-left: -445px
+    }
+
+    .hobbies__elemento5 {
+        margin-left: -450px;
+        margin-top: 240px;
+    }
+
+    .formacao__titulo {
+        margin-top: 0px;
+    }
+
+    .formacao__elemento {
+        width: 424px;
+        height: 118px;
+        padding: 0px;
+        margin-bottom: 67px;
+    }
+
+    .formacao__lista {
+        margin-left: -30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacao__icone {
+        width: 124px;
+        height: 78px;
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
+    .formacao__icone3 {
+        width: 224px;
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+
+    .formacao__nome {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -55px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .formacao__nome2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -55px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .formacao__nome3 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: -75px;
+        margin-left: 0px;
+
+    }
+
+    .formacao__detalhe {
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 0px;
+    }
+
+    .projetos__conteiner {
+        margin-left: 0px;
+        width: 704px;
+        height: 280px;
+    }
+
+    .projetos__titulo {
+        font-size: 22px;
+        line-height: 25px;
+        padding: 32px;
+        margin-top: 0px;
+    }
+
+    .projetos__img {
+        margin-top: -30px;
+        margin-left: 32px;
+    }
+
+    .projetos__nome1 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 330px;
+        margin-left: -667px;
+    }
+
+    .projetos__descricao1 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 355px;
+        margin-left: -170px;
+    }
+
+    .btn__repositorio {
+        margin-top: 385px;
+        margin-left: -145px;
+        width: 108px;
+        height: 40px;
+    }
+
+    .btn__demo {
+        margin-top: 385px;
+        margin-left: -25px;
+        width: 96px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .projetos__conteiner2 {
+        margin-top: 120px;
+        margin-left: 160px;
+        width: 704px;
+        height: 360px;
+    }
+
+    .projetos__nome2 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: -185px;
+        margin-left: -170px;
+        margin-top: 380px;
+
+    }
+
+    .projetos__descricao2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 405px;
+        margin-left: -480px;
+    }
+
+    .btn__repositorio2 {
+        margin-top: 440px;
+        margin-left: -250px;
+        margin-right: 350px;
+        width: 108px;
+        height: 40px;
+    }
+
+    .btn__demo2 {
+        margin-top: 440px;
+        margin-right: 20px;
+        margin-left: -100px;
+        width: 108px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contato {
+        margin-top: 150px;
+        margin-left: -600px;
+        margin-bottom: -450px;
+    }
+
+    .contato__titulo {
+        margin: 0px 0px -55px 632px;
+    
+    }
+    
+    .contato__descricao {
+        margin: 50px 0px 0px 632px;
+    }
+
+    .projetos__imgC {
+        visibility: hidden;
+        margin-bottom: -500px;
+    }
+
+    .rodape {
+        padding: 20px;
+    }
+    
+    .rodape__descricao {
+        text-align: center;
+        margin-top: 450px;
+    }
+    
+    .rodape__descricao2 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+}
